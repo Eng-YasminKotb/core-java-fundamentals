@@ -3,6 +3,8 @@ import java.util.HashSet;
 
 public class ArrayListMerge {
     public static void main(String[] args) {
+        //task 4
+
         //Merge two ArrayLists without duplicates
         ArrayList<Integer> num1=new ArrayList<Integer>();
         num1.add(1); num1.add(25121243); num1.add(37);
