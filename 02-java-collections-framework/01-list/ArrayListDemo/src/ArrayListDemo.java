@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class ArrayListDemo {
     public static void main(String[] args) {
@@ -31,13 +32,15 @@ public class ArrayListDemo {
 
 
         //Check if the list contains a language, then find its index
-        if(languages.contains("Python")){
-            int idx=languages.indexOf("Python");
+        int idx = languages.indexOf("Python");
+        if (idx != -1) {
             languages.remove(idx);
-            System.out.println("Language ie removed");
-        }else {
+            System.out.println("Language is removed");
+        } else {
             System.out.println("Language does not exist!");
         }
+
+
 
     }
 }
