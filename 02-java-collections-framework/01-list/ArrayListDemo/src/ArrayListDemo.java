@@ -49,16 +49,14 @@ public class ArrayListDemo {
         ArrayList<Integer> num2 = new ArrayList<Integer>();
         num2.add(3); num2.add(5); num2.add(6);
 
-        ArrayList<Integer> num3 = new ArrayList<Integer>();
+        HashSet<Integer> num3 = new HashSet<Integer>();
         for (int i : num1){
             if (!num3.contains(i)){
                 num3.add(i);
             }
         }
         for (int i : num2){
-            if (!num3.contains(i)){
-                num3.add(i);
-            }
+            num3.add(i);
         }
         for (int i : num3){
             System.out.println(i);
