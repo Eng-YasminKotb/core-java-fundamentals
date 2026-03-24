@@ -1,10 +1,8 @@
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.Set;
 
-public class ArrayListDemo {
+public class ArrayListBasicOps {
     public static void main(String[] args) {
+        //task 1-2-3
         ArrayList<String> languages= new ArrayList<String>();
 
         //Add 5 languages to ArrayList
