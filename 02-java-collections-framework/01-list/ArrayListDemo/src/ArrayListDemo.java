@@ -44,11 +44,14 @@ public class ArrayListDemo {
 
         //Merge two ArrayLists without duplicates
         ArrayList<Integer> num1=new ArrayList<Integer>();
-        num1.add(3); num1.add(2); num1.add(3);
+        num1.add(100); num1.add(25121243); num1.add(37);
 
         ArrayList<Integer> num2 = new ArrayList<Integer>();
-        num2.add(3); num2.add(5); num2.add(6);
+        num2.add(37); num2.add(9999); num2.add(812);
 
+
+        // HashSet gives no order guarantee — consistent output here
+        // is an implementation detail of how Java hashes integers, not a language guarantee
         HashSet<Integer> num3 = new HashSet<Integer>();
         for (int i : num1){
             if (!num3.contains(i)){
