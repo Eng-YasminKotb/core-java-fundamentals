@@ -13,8 +13,8 @@ public class ArrayListMerge {
         num2.add(37); num2.add(9999); num2.add(812);
 
 
-        // HashSet gives no order guarantee — consistent output here
-        // is an implementation detail of how Java hashes integers, not a language guarantee
+        // 📝 HashSet gives no order guarantee — consistent output here
+        // 📝 is an implementation detail of how Java hashes integers, not a language guarantee
         HashSet<Integer> num3 = new HashSet<Integer>();
         for (int i : num1){
             if (!num3.contains(i)){
