@@ -57,7 +57,6 @@ I focus on:
 ---
 
 ## 🎯 Goal
-To build a **strong foundation in Java** by understanding how things work internally  
-—not just using them.
+To build a **strong foundation in Java** by understanding how things work internally not just using them.
 
 ---
