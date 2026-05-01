@@ -40,11 +40,16 @@ I focus on:
 ## 📋 Planned
 - Java Basics (deep dive revision)
 - JVM & Memory Management  
-  - Heap, Stack, Garbage Collection  
+  - JVM architecture (Heap, Stack, Method Area, etc.)
+  - Garbage Collection (GC) algorithms and tuning
+  - Memory leaks and how to avoid them
 - Java 8+ Features  
   - Streams API  
   - Lambda Expressions  
-  - Functional Interfaces  
+  - Functional Interfaces (Predicate, Consumer, Supplier, etc.)
+  - Optional class
+  - Date and Time API (java.time package)
+  - Default and static methods in interfaces
 - Advanced Concurrency  
   - CompletableFuture  
   - Concurrent Collections  
