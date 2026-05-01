@@ -30,9 +30,10 @@ I focus on:
   - ExecutorService & thread pools  
 
 - Java Collections Framework  
-  - List, Set, Map implementations  
-  - HashMap internals  
-  - Iterators & Comparators  
+  - List, Set, Map, Queue and their implementations implementations  
+  - HashMap, ConcurentHashMap, HashTable internals  
+  - Iterators & Comparators 
+  - Fail-fast vs. Fail-safe iterators
 
 ---
 
